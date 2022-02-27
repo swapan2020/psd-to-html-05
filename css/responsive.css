@@ -1,0 +1,116 @@
+@media screen and (max-width:1200px){
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width:992px){
+    .header .menu li a {
+        margin-right: 10px;
+        letter-spacing: 0px;
+    }
+    .gallery .img-box .box {
+        width: calc(50% - 15px);
+    }
+    .new-content.flex-box {
+        justify-content: center;
+    }
+    .news .new-content .column{
+        width:calc(50% - 15px);
+    }
+    .news .new-content .column {
+        width: calc(70% - 26px);
+    }
+    .call-to-action .flex-box {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .call-to-action .call-btn {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:768px){
+    .btn {
+        padding: 8px 40px;
+    }
+    .header .mobile-bar {
+        display: block;
+    }
+    .header .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #111;
+        top: 0;
+        left: -100%;
+        text-align:center;
+        padding-top: 120px;
+        transition:all .4s ease;
+    }
+    .header .menu li {
+        display: block;
+    }
+    .header .menu li a {
+        margin-right: 0;
+        letter-spacing: 1px;
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+    .banner-section h1 {
+        font-size: 60px;
+    }
+    .banner-section p {
+        margin: 10px 0;
+    }
+    .all-content.d-flex {
+        flex-direction: column;
+    }
+    .contnt-box-left, .contnt-box-right {
+        width: 100%;
+    }
+    .testimonials .owl-testimonial {
+        width: 95%;
+    }
+    .footer .all-content {
+        justify-content: center;
+    }
+    .footer .all-content .single-box {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:576px){
+    .section-heading .title {
+        font-size: 40px;
+    }
+    .section-heading .description {
+        width: 100%;
+        line-height: 22px;
+    }
+    .gallery .img-box .box {
+        width: 100%;
+    }
+    .d-flex {
+        flex-direction: column;
+    }
+    .testimonials .test-img {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .footer .all-content .single-box {
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px){
+    html,body{
+        width:100%;
+        overflow-x:hidden;
+    }
+    .banner-section h1 {
+        font-size: 52px;
+        line-height: 58px;
+    }
+    .banner-section p {
+        margin: 5px 0;
+    }
+}
